@@ -1,0 +1,12 @@
+bin/
+obj/
+.godot/
+dist/
+*.dll
+*.pck
+*.pdb
+*.log
+.env
+.env.*
+.vs/
+.idea/

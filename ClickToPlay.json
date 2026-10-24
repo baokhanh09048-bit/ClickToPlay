@@ -1,0 +1,16 @@
+{
+  "id": "ClickToPlay",
+  "name": "Click To Play",
+  "author": "llxs",
+  "description": "鼠标快捷打牌：点击手牌可在目标明确时直接打出，键盘输入手牌序号（1~9）同样直接打出；点击敌人默认把锁定目标切换到该敌人（开启“点击怪物出攻击牌”后，点击敌人会自动打出第一张可用攻击牌）；选牌后自动确认；没有药水且没有牌可出时自动结束回合；右键点击战场空地也能直接结束回合（默认关闭）；进入战斗后自动锁定最左侧的敌人（场上有多个敌人时显示锁定方框），滚轮切换目标、中键解除锁定，锁定期间需要指定目标的牌会自动打向锁定的敌人。设置由 BaseLib 提供，可开启“点击怪物出攻击牌”“右键点击空地结束回合”、关闭“键盘序号直接出牌”“目标锁定”或“滚轮切换目标”，也可改用鼠标右键快捷打牌（默认关闭）。 / Mouse shortcuts for faster play: click a hand card to play it when the target is obvious, or press its number key (1-9) to play it right away; clicking an enemy moves the target lock onto it by default (enable “Click enemy to play attack” to play the first usable attack from hand instead); auto-confirm card selections; auto-end turn when nothing is playable; and right click an empty spot of the battlefield to end the turn (disabled by default). The left-most enemy is locked automatically at the start of combat, with a lock box drawn while several enemies are on the field; scroll the wheel to switch targets, press the middle mouse button to release the lock, and cards that need a target are played on the locked enemy. BaseLib settings can enable enemy-click attacks or right click end turn, disable number key quick play, the target lock or wheel target switching, or switch quick play to the right mouse button (disabled by default).",
+  "version": "0.6.6",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "BaseLib",
+      "min_version": "3.4.5"
+    }
+  ],
+  "affects_gameplay": false
+}
